@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Basic" tilewidth="16" tileheight="16" tilecount="140">
+  <image source="../Tilesets/Tiles.bmp" width="160" height="224"/>
+ </tileset>
+ <tileset firstgid="141" name="Town4" tilewidth="16" tileheight="16" tilecount="1344">
+  <image source="../Tilesets/town04.png" width="512" height="672"/>
+ </tileset>
+ <tileset firstgid="1485" name="Red" tilewidth="16" tileheight="16" tilecount="1024">
+  <image source="../../../../../Downloads/gaussianwood.png" trans="ff0004" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2509" name="SNES - The Legend of Zelda A Link to the Past - Links House Area" tilewidth="16" tileheight="16" tilecount="1280">
+  <image source="../../../../../Downloads/SNES - The Legend of Zelda A Link to the Past - Links House Area.png" trans="ff0004" width="649" height="512"/>
+ </tileset>
+ <layer name="ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzFlk2qwzAMhNNNtslL6BECvWHBpy8Fm4phRpJf4nYxFDeOPv3Z0W2aphtoB+HzkWrMrWohGuWX5So20zqAfZg4R/MbeyFxZ/hLYH+rPjZfN8JXdtmzQuSx/yC3bZ3hPwkLz8fs8Fu8q1FbK77H6j2bxfAehl+An2X+p7dK5e71txBbVzKZ3WJqqexexWTn4Vv36Zt9CB++oTJ9evgX/LnW2TuTV6jdk8qHkdwt4I9goTL3/tVM5Pf0WORvhod3dLbOme9lltt0hs18yM46PXVncwqzo2YaxY7qruytxK7y0+Or3HvzmbKJ77G9uO6p8erwd3hf7cP/z8aM30Kv7sz/u1GWizNF1H8eP9NrjH2QvdkcqvpH/WrjVbGUgM98Zn3Tw7b8uYON/KjeaEvl8ixfsReHnem/iO/lPKMXrcEyxg==
+  </data>
+ </layer>
+ <layer name="water" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlDsOACEIBe29/2G8nT2N7PuAMTsJlchIFNccY4WIxHVnZOh0u87EcrM/k+/yZ/c43BV+5l4Rv/JdIXkuf8x1/i3q2n/UR9ddKmfjq0s9m6gT8Z/yEZieqvs+1XD4s3UQVG9I2TuCws/A+lkUNar93f3f4leAzuxLfmSPyr8BSqhjUA==
+  </data>
+ </layer>
+ <layer name="obstacles" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicIJ8NggfK3pFoNzJNTfCNFT+fVHuRw4lQeMHsAtEwjM0N+Mwg1i5CbsDFR7efmukA2c/4xGiZ9ojxP60BrngfBdQFIyWcB8p/6OUYvexCxwNhJ6EynJb2YlNPTUDvcB7KYDRcRsEooB4YzU8jFwAAd/RFqw==
+  </data>
+ </layer>
+</map>

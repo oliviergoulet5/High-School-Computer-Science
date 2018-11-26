@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="6">
+ <tileset firstgid="1" name="Town" tilewidth="16" tileheight="16" tilecount="1344">
+  <image source="../Tilesets/town04.png" width="512" height="672"/>
+ </tileset>
+ <tileset firstgid="1345" name="Water" tilewidth="16" tileheight="16" tilecount="1280">
+  <image source="../../../../../Downloads/SNES - The Legend of Zelda A Link to the Past - Links House Area.png" trans="ff0004" width="649" height="512"/>
+  <tile id="531">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="15.875" height="16"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJy9lrlvE0EUh2fH6bih4ZL4AwhHHEAiUEXuOHNw548AIQQ5Coptki5NBBYVHUgURMhSXNC54hYNEkgUFCkQt1yBBL/RzpNfnt/Ornctik8zHs++772Znd2NI2Pi/8j9EtfWFPrp1+K5sUcmPw0Tjpvlr6W4n4Hn4AV4CV6B1+ANuGSNectyKFN/mv8z2BIlfEX/G/gOfoBp+H8Jf9r+5PFzKOY69NeDDWAj2AQ2R52ctrG5oXsky/9FQDH3oj8I9oH94AA4CIZAFQyzuTJGL/tP82X9J9A/CU6B0+AMOAvGwDiYSKm/X37HVRtGnoFe/DzftLPnHMtGR/PHBf18vuYfQzvumbK6n3Lg69lr/Y6GeL44lztr8wPGLAwk52I58Azi9SyZxK+dyzjglzm4s/YA7oeKn9eurefHgv5Gjv2Xcfl5ln4tB83Pc+D3OvcSIf9tv/4ttEaZm3b+aPynoO2R4/Jekvz17SBy+IR2NSVfjbbCIds9Foqxx3b7V6O1eWdRxbXD3jtZMWar7ZB2Da2/vP8WcjDvcX06+xNgEpwD58EFcNEm7+LL4Ip/NpDf5cn9lAOvP/RcqHn/NcS8C56AOrjhf98Et2zyLp4Bs2BO8bdE/Xnd0l/3OTiue+6w/2Ywd4pd69yaP4tQ/RLKqen9c2L/Ha1o7foX9a8w74qnyfKg+p9WEihGWf8QYlUFj8Wa1Fn95KccWixuET+/nwjyN9k6OP+9gL/o/mv+Rfje+7NH7TubfCPS2AfbXz/l4Nq2Tb5Np1m75P2u/xv8KeiPFb8cd373bbq90mkdO8BOsAvsLrj+5Bk1iX/UdP93GLGPgKMKI+AYOF7CTx65/mn7FKKoP47yvSuyKOPPqjXPWsg4/wBYbwxM
+  </data>
+ </layer>
+ <layer name="water" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvyOOgs4Wj9o/aP2r/qP2j9o/aP2r/iAfo4Q/ik4KpbT+99I7aP2r/qP2j9o/aT5leauDBBABCbR/P
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KABAMhd15GY/j/Z/FhZQ0P2OOqZ1aEfmyjc050w8KPls9bue3+Zy58eX5M7ut6MeG4O+sSfMpvyP4Rei4a+FriH+b68j8N2W9yvuaTdVixJ88qjuInoA6s3dfFF9i70/81TxDvRENfMofqDo1u398xOfuOeFr6E9NfCVcQBr+
+  </data>
+ </layer>
+ <layer name="door" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0DENAAAIBLHf8G8MTUhgJCStgsslAAAAv3VdF9zzgM0AeGoBqw==
+  </data>
+ </layer>
+ <layer name="bed" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1jENACAMAMGOVYAc/Mti6tqEARLC3fYOPgLeMLLv02b2DQDAP+pFbz9pqRf1pOxYBHQBkQ==
+  </data>
+ </layer>
+ <layer name="loot" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1qENACAQBMFXWPrv9tUneBI4MVPByq2CO3v9LgAAgPfmg88fTnjjhAYyNQS4AGo=
+  </data>
+ </layer>
+ <layer name="trees" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy9l1sOhDAIRf1xuzqrqS53NJHk5gYopQ8SMo5tOfIo1rJv2/Xo/ejxaYHrV89Hf999VFl30jy+xv+vsE2xUwymjGsi4/KLa8Um20AGj2nzWwTXcixq/otc372soE2Oxwo+ri27n38emyFa/qP1NUowpqv99/gz/Nfqx+LX5mZEi2kLv/cZrJiKPRzXOFrP6OUzRxharLReGhVrDfM9htabo7nwYq/F2fM/wxeOVVP8rLX911qDmZrt3W8jJMvHeNds4Phqn636w2upQ+xNs/iy95h9V+pxJL8o+zyz57LCfouueicf4Kv0+t7eHxHtPYi+R/yP7jlNrFoXfuRM0sPnbxfmR/M/4nyg8a33MnJHnY8svpeDnthH+ZGzcfY5MMde/mf1ouLw+dtb+w73/GqZ8+ofdLXXNw==
+  </data>
+ </layer>
+ <objectgroup name="GameObjects">
+  <object id="1" name="StartingPoint" x="256" y="96" width="16" height="16"/>
+  <object id="5" name="ExitMap" x="494" y="239" width="16" height="32"/>
+ </objectgroup>
+</map>

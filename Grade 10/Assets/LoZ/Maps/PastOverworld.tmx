@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Basic" tilewidth="16" tileheight="16" tilecount="140">
+  <image source="../Tilesets/Tiles.bmp" width="160" height="224"/>
+ </tileset>
+ <tileset firstgid="141" name="Town4" tilewidth="16" tileheight="16" tilecount="1344">
+  <image source="../Tilesets/town04.png" width="512" height="672"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJydl0tOAzEQRM3GEguUz4gVC9hECUiRuAJzkAy3YJRcnlhyi0rRv8milOBx5lV3226zKaVsQKuEHrq8OWtDzJG/t4oi/rzAw6XPZ4kXjy8eh65n0ADaG/zDVdXQSuFrsQgf48/kgHPGYr71e4tfu4evrhV8x5xHfKt2ODYUPZ7aeY3zA34wz1k+M3FsoHF8z5meXRxmtHcsefzaPYgqcSIu7snpDr54qAq76Slg89nzetWbU5Psul7KX/f436/66N+1tRh5eCR9JmussXhMO6tEYzJO66wX1o7GeJ7nwWNH/KZvkJcnZB4DfkZeD8Rewh602mRrLeejlqMMv+m0kC/9qv1W9it6WLo2TzAe7ZWBxH0E85HJAa9P7c6Bzyw+n1+aD3yf1Sc4DziP2czXvGgMK1avVhrb41t9LYrbmncvX/paxPLq7vEnkOdh7Mrek7P89uzYP8WHsLQ6jIoyfMkJsr19yh4qsDQPUU6sGrV4sdejJmLIveQFxB7k/sPvsnoV93ph7Mrt2piIf+ifcmaO5e/eVSG3Ud/G92rxzxDTWP7Hj/XAey7mWOsH2CfQA67vudyeieeirzltvXp8We/bzhC+xtbOAm39nWmunN14T9Di574zG2zrns33be5nnGvmc9+J/l9ZMl/zwPoFLmFgoA==
+  </data>
+ </layer>
+</map>
