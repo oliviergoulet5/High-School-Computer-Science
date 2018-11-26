@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;	import flash.events.*;		public class Octorok extends Mob {				public function Octorok() {			specimen = "Octorok";			health = 3;			damage = 1;		}	}}/*var r=Math.ceil(Math.random()*50);*/

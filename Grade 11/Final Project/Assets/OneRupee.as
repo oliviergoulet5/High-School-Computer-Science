@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.*;	public class Rupee extends MovieClip{		var worth:int = 1;		public function Rupee(spawnPos) {			if (worth == 1){				gotoAndStop("One");			}			if (worth == 5){				gotoAndStop("Five");			}			x = spawnPos[0]			y = spawnPos[1];		}	}	}

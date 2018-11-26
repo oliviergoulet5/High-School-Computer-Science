@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.*;	public class Rupee extends MovieClip{		public var worthValue:int;		public function Rupee(worth) {			worthValue = worth;//worthValue is used to find worth outside of class.			if (worth == 1){				gotoAndPlay("One");			}			else if(worth == 5){				gotoAndPlay("Five");			}		}	}	}

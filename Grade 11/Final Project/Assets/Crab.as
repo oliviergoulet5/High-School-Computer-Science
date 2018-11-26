@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;	import flash.events.*;		public class Crab extends Mob {				public function Crab() {			specimen = "Crab";			health = 1;		}	}}/*var r=Math.ceil(Math.random()*50);*/

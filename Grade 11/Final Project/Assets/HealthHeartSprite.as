@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.*;	public class HealthHeartSprite extends MovieClip{		public var subHealth = 4;		public function HealthHeartSprite() {			y = 0;			width = 32;			height = 28;		}	}	}

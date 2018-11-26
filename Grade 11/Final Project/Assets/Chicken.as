@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;	import flash.events.*;	public class Chicken extends Mob {		public function Chicken() {			specimen = "Chicken";			health = 1;		}	}}
