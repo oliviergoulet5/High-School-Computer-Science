@@ -1,4 +1,4 @@
-# High-School-Computer-Science
+# High School CompSci
 Projects that I've worked on from 2015-17. Do not expect these to be good. I was fairly new to programming during this period of time. Some of the programs are just me trying to figure out simple things such as loops and classes. Some programs make absolutely no sense at all, some are just ridiculous and some I'm proud of. 
 
 # Recommendation
